@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Survey</title>
+    <link rel="stylesheet" href="styles/styles.css" />
+  </head>
+
+  <body>
+    <div class="center">
+      <header>
+        <h1 class="text-color1">Follow Up Survey</h1>
+      </header>
+
+      <form action="">
+        <!--date and name of service-->
+        <div class="radio-left"">
+          <label for="date-of-use" class="text-color1"
+          >When did you use our service?</label
+        >
+        <input
+          type="date"
+          name="date-of-use"
+          id="date-of-use"
+        />
+        </div>
+
+        <div class="radio-right">
+          <label for="name-of-product" class="text-color1"
+          >Name of product or service</label
+          >
+          <input
+            type="text"
+            name="name-of-product"
+            id="name-of-product"
+          />
+        </div>
+        <br>
+        <br>
+
+        <!--satisfaction-->
+        <label for="satisfaction-div" class="text-color1">
+          Overall, how satisfied are you with the product or service?
+        </label>
+        <div id="satisfaction-div">
+          
+          <div class="radio-left"">
+            <input
+              type="radio"
+              name="satisfaction"
+              id="very-satisfied"
+              value="very satisfied"
+            />
+            <label for="very-satisfied" class="text-color2">Very satisfied</label>
+          </div>
+
+          <div class="radio-right">
+            <input
+              type="radio"
+              name="satisfaction"
+              id="satisfied"
+              value="satisfied"
+            />
+            <label for="satisfied" class="text-color2">Satisfied</label>
+          </div>
+          <br>
+
+          <div class="radio-left"">
+            <input
+                type="radio"
+                name="satisfaction"
+                id="neutral"
+                value="neutral"
+              />
+              <label for="neutral" class="text-color2">Neutral</label>
+          </div>
+
+          <div class="radio-right">
+            <input
+              type="radio"
+              name="satisfaction"
+              id="unsatisfied"
+              value="unsatisfied"
+            />
+            <label for="unsatisfied" class="text-color2">unsatisfied</label>
+          </div>
+          <br>
+
+          <div class="radio-left"">
+            <input
+              type="radio"
+              name="satisfaction"
+              id="very-unsatisfied"
+              value="very-unsatisfied"
+            />
+            <label for="very-unsatisfied" class="text-color2"
+              >Very unsatisfied</label>
+          </div>
+
+          <div class="radio-right">
+            <input
+              type="radio"
+              name="satisfaction"
+              id="N/A"
+              value="N/A"
+            />
+            <label for="N/A" class="text-color2">N/A</label>
+          </div>
+          
+        </div>
+        <br>
+        <br>
+
+
+        <!--expectation-->
+        <label for="expectation-div" class="text-color1"
+          >Did our product or service meet your expectations?</label>
+
+        <div id="expectation-div">
+
+          <div class="radio-left">
+            <input
+              type="radio"
+              name="expectation"
+              id="expectation-1"
+              value="Yes"
+            />
+            <label for="expectation-1" class="text-color2">Yes</label>
+          </div>
+
+          <div class="radio-right">
+            <input
+              type="radio"
+              name="expectation"
+              id="expectation-0"
+              value="No"
+              checked
+            />
+            <label for="expectation-0" class="text-color2">No</label>
+          </div>
+
+        </div>
+        <br />
+        <br>
+
+        <!--recommendation-->
+        <label for="recommendation-div" class="text-color1">
+          Would you recommend this product or service to a friend?</label>
+
+        <div id="recommendation-div">
+
+          <div class="radio-left">
+            <input
+              type="radio"
+              name="recommendation"
+              id="recommendation-1"
+              value="Yes"
+            />
+            <label for="recommendation-1" class="text-color2">Yes</label>
+          </div>
+
+          <div class="radio-right">
+            <input
+              type="radio"
+              name="recommendation"
+              id="recommendation-0"
+              value="No"
+              checked
+            />
+            <label for="recommendation-0" class="text-color2">No</label>
+          </div>
+        </div>
+        <br />
+        <br>
+
+        <!--most satisfaction-->
+        <label for="most-satisfaction-div" class="text-color1">
+          What aspect of the product or service were you most satisfied by?</label>
+        
+        <div id="most-satisfaction-div">
+
+          <div class="radio-left"">
+            <input
+              type="radio"
+              name="most-satisfaction"
+              id="most-quality"
+              value="Quality"
+            />
+            <label for="most-quality" class="text-color2">Quality</label>
+          </div>
+
+          <div class="radio-right">
+            <input
+              type="radio"
+              name="most-satisfaction"
+              id="most-costumer-service"
+              value="Costumer service"
+            />
+            <label for="most-costumer-service" class="text-color2">
+              Costumer service</label>
+          </div>
+          <br>
+
+          <div class="radio-left"">
+            <input
+              type="radio"
+              name="most-satisfaction"
+              id="most-price"
+              value="Price"
+            />
+            <label for="most-price" class="text-color2">Price</label>
+          </div>
+
+          <div class="radio-right">
+            <input
+              type="radio"
+              name="most-satisfaction"
+              id="most-installation"
+              value="Installation or first use experience"
+            />
+            <label for="most-installation" class="text-color2"
+              >Installation or first use experience</label>
+          </div>
+          <br>
+          <br>
+        </div>
+          
+
+        <!--least satisfaction-->
+        <label for="least-satisfaction-div" class="text-color1">
+          What aspect of the product or service were you least satisfiedby?</label>
+
+        <div id="least-satisfaction-div">
+
+          <div class="radio-left"">
+            <input
+              type="radio"
+              name="least-satisfaction"
+              id="least-quality"
+              value="Quality"
+            />
+            <label for="least-quality" class="text-color2">Quality</label>
+          </div>
+
+          <div class="radio-right">
+            <input
+              type="radio"
+              name="least-satisfaction"
+              id="least-costumer-sevice"
+              value="Costumer service"
+            />
+            <label for="least-costumer-sevice" class="text-color2"
+              >Costumer service</label>
+          </div>
+          <br>
+
+          <div class="radio-left"">
+            <input
+              type="radio"
+              name="least-satisfaction"
+              id="least-price"
+              value="Price"
+            />
+            <label for="least-price" class="text-color2">Price</label>
+          </div>
+
+          <div class="radio-right">
+            <input
+              type="radio"
+              name="least-satisfaction"
+              id="least-installation"
+              value="Installation or first use experience"
+            />
+            <label for="least-installation" class="text-color2"
+              >Installation or first use experience</label>
+          </div>
+          <br>
+          <br>
+        </div>
+
+        <!--comments-->
+        <div>
+          <label for="comments" class="text-color1">Additional comments:</label
+          ><br /><br />
+          <textarea
+            name="comments"
+            id="comments"
+            cols="88"
+            rows="6"
+            placeholder="Type here ..."
+          ></textarea>
+        </div>
+
+        <!--button-->
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>
